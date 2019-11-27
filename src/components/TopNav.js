@@ -7,7 +7,9 @@ import userIcon from '../images/user-icon.svg';
 import './TopNav.css'
 // icon from fontawesome.com, no changes have been made, license can be found at https://fontawesome.com/license
 
-export const TopNav = () => {
+export default class TopNav extends React.Component {
+
+    render(){
     return (
         <div id="top-nav">
             <div id="left-side">
@@ -16,13 +18,15 @@ export const TopNav = () => {
             <div id="vertical-line"></div>
             <img id="insta-name" src={instaName} alt="Instagram"/>
             </div>
-
+            <input id="top-search-box" placeHolder="search"></input>
             <div id="right-side">
             {/* this should contain the explore, activity and profile icons */}
-            <img className="icon explore-icon" src={exploreIcon} alt="Explore"/>
-            <img className="icon activity-icon" src={activityIcon} alt="Activity"/>
-            <img className="icon user-icon" src={userIcon} alt="Activity"/>
+            {/* <img className="icon explore-icon" src={exploreIcon} alt="Explore"/> */}
+            <a href="#"><img className="icon explore-icon" alt="Explore" src={exploreIcon} onMouseDown={this.props.logoClick} onMouseUp={this.props.logoClick} /></a>
+            <a href="#"><img className="icon activity-icon" alt="Activity" src={activityIcon} onMouseDown={this.props.logoClick} onMouseUp={this.props.logoClick} /></a>
+            <a href="#"><img className="icon user-icon" alt="User" src={userIcon} onMouseDown={this.props.logoClick} onMouseUp={this.props.logoClick} /></a>
             </div>
         </div>
     )
+    }
 }

@@ -1,26 +1,7 @@
 .App {
     text-align: center;
   }
-  
-  .App-logo {
-    height: 40vmin;
-  }
-  
-  .App-header {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-  }
-  
-  .App-link {
-    color: #09d3ac;
-  }
-  
+    
   #top-nav{
     display:flex;
     justify-content: space-between;
@@ -38,8 +19,13 @@
     justify-content: space-around;
   }
   
+  #top-search-box{
+    text-align: center;
+  }
+
   .icon{
     width:24px;
+    /* filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%); */
   }
   
   #vertical-line{
