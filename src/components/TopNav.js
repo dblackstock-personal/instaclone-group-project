@@ -18,7 +18,7 @@ export default class TopNav extends React.Component {
             <div id="vertical-line"></div>
             <img id="insta-name" src={instaName} alt="Instagram"/>
             </div>
-            <input id="top-search-box" placeHolder="search"></input>
+            <input id="top-search-box" placeholder="search"></input>
             <div id="right-side">
             {/* this should contain the explore, activity and profile icons */}
             {/* <img className="icon explore-icon" src={exploreIcon} alt="Explore"/> */}
