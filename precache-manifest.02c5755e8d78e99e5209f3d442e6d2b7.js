@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7d4cb72794e4f27a2e3b301730596bb4",
+    "revision": "8afea1a772c7e992bacdca16fe7d2adf",
     "url": "/instaclone-group-project/index.html"
   },
   {
-    "revision": "81593ee1e60cc4d1cbb6",
-    "url": "/instaclone-group-project/static/css/main.fea71453.chunk.css"
+    "revision": "2f2757f14d00fe45b30d",
+    "url": "/instaclone-group-project/static/css/main.de2aa15a.chunk.css"
   },
   {
     "revision": "36cde2fa628d7d760681",
     "url": "/instaclone-group-project/static/js/2.a0399b2a.chunk.js"
   },
   {
-    "revision": "81593ee1e60cc4d1cbb6",
-    "url": "/instaclone-group-project/static/js/main.2d78078b.chunk.js"
+    "revision": "2f2757f14d00fe45b30d",
+    "url": "/instaclone-group-project/static/js/main.fef9cd80.chunk.js"
   },
   {
     "revision": "46e7ac0648e23567b04d",
