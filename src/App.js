@@ -1,13 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { TopNav } from './components/TopNav';
+import BottomNav from './components/BottomNav';
 
-function App() {
-  return (
-    <div className="App">
-      INSTACLONE
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <TopNav/>
+        <BottomNav/>
+      </div>
+    )
+  }
 }
 
 export default App;
