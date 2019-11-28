@@ -1,30 +1,29 @@
 {
   "files": {
-    "main.css": "/instaclone-group-project/static/css/main.336cf0b9.chunk.css",
-    "main.js": "/instaclone-group-project/static/js/main.28f07e88.chunk.js",
-    "main.js.map": "/instaclone-group-project/static/js/main.28f07e88.chunk.js.map",
+    "main.css": "/instaclone-group-project/static/css/main.eb5ed4f1.chunk.css",
+    "main.js": "/instaclone-group-project/static/js/main.63298e13.chunk.js",
+    "main.js.map": "/instaclone-group-project/static/js/main.63298e13.chunk.js.map",
     "runtime-main.js": "/instaclone-group-project/static/js/runtime-main.cddb4a7b.js",
     "runtime-main.js.map": "/instaclone-group-project/static/js/runtime-main.cddb4a7b.js.map",
-    "static/js/2.a0399b2a.chunk.js": "/instaclone-group-project/static/js/2.a0399b2a.chunk.js",
-    "static/js/2.a0399b2a.chunk.js.map": "/instaclone-group-project/static/js/2.a0399b2a.chunk.js.map",
+    "static/js/2.22e6fd4b.chunk.js": "/instaclone-group-project/static/js/2.22e6fd4b.chunk.js",
+    "static/js/2.22e6fd4b.chunk.js.map": "/instaclone-group-project/static/js/2.22e6fd4b.chunk.js.map",
     "index.html": "/instaclone-group-project/index.html",
-    "precache-manifest.fc0dc15473a64f789da32a566e6701b9.js": "/instaclone-group-project/precache-manifest.fc0dc15473a64f789da32a566e6701b9.js",
+    "precache-manifest.4b3d1f15687aae7b504ab57257675ecf.js": "/instaclone-group-project/precache-manifest.4b3d1f15687aae7b504ab57257675ecf.js",
     "service-worker.js": "/instaclone-group-project/service-worker.js",
-    "static/css/main.336cf0b9.chunk.css.map": "/instaclone-group-project/static/css/main.336cf0b9.chunk.css.map",
-    "static/media/activity-icon.svg": "/instaclone-group-project/static/media/activity-icon.311b7fc9.svg",
+    "static/css/main.eb5ed4f1.chunk.css.map": "/instaclone-group-project/static/css/main.eb5ed4f1.chunk.css.map",
     "static/media/addLogo.svg": "/instaclone-group-project/static/media/addLogo.6383b991.svg",
-    "static/media/explore-icon.svg": "/instaclone-group-project/static/media/explore-icon.29d2d6e2.svg",
+    "static/media/dm-icon.svg": "/instaclone-group-project/static/media/dm-icon.56611ebb.svg",
+    "static/media/explore-icon.svg": "/instaclone-group-project/static/media/explore-icon.f52b6756.svg",
     "static/media/homeLogo.svg": "/instaclone-group-project/static/media/homeLogo.fa2c07da.svg",
     "static/media/instagram-icon.svg": "/instaclone-group-project/static/media/instagram-icon.e75317fa.svg",
     "static/media/likeLogo.svg": "/instaclone-group-project/static/media/likeLogo.5dbbbe23.svg",
     "static/media/searchLogo.svg": "/instaclone-group-project/static/media/searchLogo.c6a0effb.svg",
-    "static/media/user-icon.svg": "/instaclone-group-project/static/media/user-icon.29def3e5.svg",
     "static/media/userLogo.svg": "/instaclone-group-project/static/media/userLogo.c40fe570.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.cddb4a7b.js",
-    "static/js/2.a0399b2a.chunk.js",
-    "static/css/main.336cf0b9.chunk.css",
-    "static/js/main.28f07e88.chunk.js"
+    "static/js/2.22e6fd4b.chunk.js",
+    "static/css/main.eb5ed4f1.chunk.css",
+    "static/js/main.63298e13.chunk.js"
   ]
 }
