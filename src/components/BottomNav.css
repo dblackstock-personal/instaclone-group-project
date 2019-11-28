@@ -1,51 +1,57 @@
+body{
+  height: 80vh;
+}
+
 .App {
-  text-align: center;
+text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
+height: 40vmin;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+background-color: #282c34;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-size: calc(10px + 2vmin);
+color: white;
 }
 
 #bottom-navBar { 
-  background: white;
-  display: flex;
-  overflow: hidden;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  justify-content: space-evenly;
-  padding-top: 15px;
-  padding-bottom: 15px;
-} 
+background: white;
+display: flex;
+overflow: hidden;
+position: fixed;
+bottom: 0;
+width: 100vw;
+justify-content: space-evenly;
+padding-top: 15px;
+padding-bottom: 15px;
+border-top: 0.2px solid grey;
+}  
 
 @media screen and (max-width: 1024px){
-    nav a img{ 
-        width: 32px;
-        height: 32px;
-    }
+  #bottom-navBar { 
+      display: flex;
+  } 
+  a{
+      display: flex;
+  }
+  nav a img{ 
+      width: 20px;
+      height: 20px;
+      text-align: center;      
+  }
 }
 
-@media screen and (max-width: 500px){
-    #bottom-navBar { 
-        display: flex;
-    } 
-    a{
-        display: flex;
-    }
-    nav a img{ 
-        width: 22px;
-        height: 22px;
-        text-align: center;      
-    }
+.reset {
+filter: none;
+}
+
+.clicked {
+filter: invert(50%);
 }
