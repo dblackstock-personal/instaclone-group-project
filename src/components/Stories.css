@@ -1,0 +1,23 @@
+#stories-element{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 10%;
+    height:100%;
+    /* flex: 1; */
+}
+
+#user, #stories, #suggestions{
+    background-color: burlywood;
+    width: 300px;
+    height:200px;
+    margin-bottom:15px;
+}
+
+
+/* this is for mobile views */
+/* @media screen and (max-width: 1024px){
+    #stories, #suggestions{
+    display:none;
+    }
+} */

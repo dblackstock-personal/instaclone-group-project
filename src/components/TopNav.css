@@ -8,18 +8,34 @@
     align-items: center;
     height:80px;
     width:100%;
-    border-bottom:solid black 1px;
+    border-bottom:solid lightgrey 1px;
+    position:fixed;
+    background:white;
   }
   
   #left-side{
-    width:200px;
+    width:90px;
     display:flex;
     align-items: center;
     height:100%;
     justify-content: space-around;
   }
+
+  #middle{
+    display:flex;
+    justify-content:center;
+  }
   
-  #top-search-box{
+  #insta-name-div{
+    width:103px;
+  }
+
+  #search-box-div{
+    flex: 1;
+    text-align:center;
+  }
+
+  #top-bar-search-box{
     text-align: center;
   }
 
@@ -40,4 +56,21 @@
     align-items: center;
     height:100%;
     justify-content: space-around;
+  }
+
+  .direct-icon{
+    display:none;
+  }
+
+  /* for now >1024px is synonymous with using a browser */
+  @media screen and (max-width: 1024px){
+    #vertical-line, #search-box-div, .explore-icon, .activity-icon, .user-icon{
+      display:none;
+    }
+    .direct-icon{
+      display:inline;
+    }
+    #insta-name-div{
+      text-align: center;
+    }
   }

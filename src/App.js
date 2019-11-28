@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import TopNav from './components/TopNav';
 import BottomNav from './components/BottomNav';
+import Stories from './components/Stories';
 
 class App extends React.Component {
 
@@ -18,6 +19,15 @@ class App extends React.Component {
     return (
       <div>
         <TopNav logoClick={this.handleClick}/>
+        <div id="main-page">
+          <div id="feed-placeholder-wrap">
+             <div class="placeholder-feed"> </div>
+             <div class="placeholder-feed"> </div>
+             <div class="placeholder-feed"> </div>
+          </div>
+          <Stories/>
+        </div>
+        
         <BottomNav />
       </div>
     )
