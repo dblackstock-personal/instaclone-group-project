@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "795cf0b1a293a7d5ab8b34337f3c2a8a",
+    "revision": "ad57266a6ec02fd2dbad9d74a7cc61f8",
     "url": "/instaclone-group-project/index.html"
   },
   {
-    "revision": "95043912cfe08c268f56",
-    "url": "/instaclone-group-project/static/css/main.eb5ed4f1.chunk.css"
+    "revision": "51790c2898c8c7d39d7c",
+    "url": "/instaclone-group-project/static/css/main.cb190106.chunk.css"
   },
   {
-    "revision": "ad7ee03ceb7e80dab095",
-    "url": "/instaclone-group-project/static/js/2.22e6fd4b.chunk.js"
+    "revision": "3847b0453d1c1827bb3a",
+    "url": "/instaclone-group-project/static/js/2.ca1ff2aa.chunk.js"
   },
   {
-    "revision": "95043912cfe08c268f56",
-    "url": "/instaclone-group-project/static/js/main.63298e13.chunk.js"
+    "revision": "51790c2898c8c7d39d7c",
+    "url": "/instaclone-group-project/static/js/main.787e436a.chunk.js"
   },
   {
     "revision": "46e7ac0648e23567b04d",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c6a0effbe867db0941bd5592f8f43810",
     "url": "/instaclone-group-project/static/media/searchLogo.c6a0effb.svg"
+  },
+  {
+    "revision": "0aadf57bd5aff497a37ab72d84ed1861",
+    "url": "/instaclone-group-project/static/media/user-profile.0aadf57b.png"
   },
   {
     "revision": "c40fe570ea9244ede1252a4640913555",

@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/instaclone-group-project/static/css/main.eb5ed4f1.chunk.css",
-    "main.js": "/instaclone-group-project/static/js/main.63298e13.chunk.js",
-    "main.js.map": "/instaclone-group-project/static/js/main.63298e13.chunk.js.map",
+    "main.css": "/instaclone-group-project/static/css/main.cb190106.chunk.css",
+    "main.js": "/instaclone-group-project/static/js/main.787e436a.chunk.js",
+    "main.js.map": "/instaclone-group-project/static/js/main.787e436a.chunk.js.map",
     "runtime-main.js": "/instaclone-group-project/static/js/runtime-main.cddb4a7b.js",
     "runtime-main.js.map": "/instaclone-group-project/static/js/runtime-main.cddb4a7b.js.map",
-    "static/js/2.22e6fd4b.chunk.js": "/instaclone-group-project/static/js/2.22e6fd4b.chunk.js",
-    "static/js/2.22e6fd4b.chunk.js.map": "/instaclone-group-project/static/js/2.22e6fd4b.chunk.js.map",
+    "static/js/2.ca1ff2aa.chunk.js": "/instaclone-group-project/static/js/2.ca1ff2aa.chunk.js",
+    "static/js/2.ca1ff2aa.chunk.js.map": "/instaclone-group-project/static/js/2.ca1ff2aa.chunk.js.map",
     "index.html": "/instaclone-group-project/index.html",
-    "precache-manifest.4b3d1f15687aae7b504ab57257675ecf.js": "/instaclone-group-project/precache-manifest.4b3d1f15687aae7b504ab57257675ecf.js",
+    "precache-manifest.dca26cf28094554aa43fde8656e3539f.js": "/instaclone-group-project/precache-manifest.dca26cf28094554aa43fde8656e3539f.js",
     "service-worker.js": "/instaclone-group-project/service-worker.js",
-    "static/css/main.eb5ed4f1.chunk.css.map": "/instaclone-group-project/static/css/main.eb5ed4f1.chunk.css.map",
+    "static/css/main.cb190106.chunk.css.map": "/instaclone-group-project/static/css/main.cb190106.chunk.css.map",
     "static/media/addLogo.svg": "/instaclone-group-project/static/media/addLogo.6383b991.svg",
     "static/media/dm-icon.svg": "/instaclone-group-project/static/media/dm-icon.56611ebb.svg",
     "static/media/explore-icon.svg": "/instaclone-group-project/static/media/explore-icon.f52b6756.svg",
@@ -18,12 +18,13 @@
     "static/media/instagram-icon.svg": "/instaclone-group-project/static/media/instagram-icon.e75317fa.svg",
     "static/media/likeLogo.svg": "/instaclone-group-project/static/media/likeLogo.5dbbbe23.svg",
     "static/media/searchLogo.svg": "/instaclone-group-project/static/media/searchLogo.c6a0effb.svg",
+    "static/media/user-profile.png": "/instaclone-group-project/static/media/user-profile.0aadf57b.png",
     "static/media/userLogo.svg": "/instaclone-group-project/static/media/userLogo.c40fe570.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.cddb4a7b.js",
-    "static/js/2.22e6fd4b.chunk.js",
-    "static/css/main.eb5ed4f1.chunk.css",
-    "static/js/main.63298e13.chunk.js"
+    "static/js/2.ca1ff2aa.chunk.js",
+    "static/css/main.cb190106.chunk.css",
+    "static/js/main.787e436a.chunk.js"
   ]
 }
