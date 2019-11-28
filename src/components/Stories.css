@@ -2,18 +2,40 @@
     display:flex;
     flex-wrap: wrap;
     align-items: center;
-    width: 10%;
+    width: 290px;
     height:100%;
     /* flex: 1; */
 }
 
 #user, #stories, #suggestions{
     background-color: burlywood;
-    width: 300px;
+    width: 100%;
     height:200px;
     margin-bottom:15px;
 }
 
+#user{
+    height: 50px;
+    display:flex;
+    flex-wrap:flex;
+
+}
+#user-profile-pic{
+    width: 50px;
+    border-radius: 50%;
+}
+
+#profile-user-webname{
+    box-sizing: border-box;
+    width: 240px;
+    height:25px;
+}
+
+#profile-user-offlinename{
+    width: 240px;
+    color:grey;
+    height:25px;
+}
 
 /* this is for mobile views */
 /* @media screen and (max-width: 1024px){

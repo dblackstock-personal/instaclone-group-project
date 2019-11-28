@@ -1,3 +1,22 @@
+//to push for the first time:
+//talk to Davey to set up pages
+// git init
+// git add .
+// git commit -m "comments here based on the change"
+// git remote add origin
+// git push -u origin master
+// npm run deploy
+// https://github.com/dblackstock-personal/instaclone-group-project
+
+
+//to push for the second time onwards:
+// git init
+// git add .
+// git commit -m "comments here based on the change"
+// git push -u origin master
+// npm run deploy
+
+
 import React from 'react';
 import './App.css';
 import TopNav from './components/TopNav';
