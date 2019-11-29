@@ -11,11 +11,12 @@ class Tile extends Component {
         // parent div called feedTile contains all of the components for the tile. This is repeated for each post.
               <div className="feedTile">
                     <div className="userName">
-                        <h4>{this.props.uName}</h4>
+                        <img className="user-profile-img"src={this.props.profileImg}/>
+                        <h4 className="post-owner">{this.props.uName}</h4>
                     </div>
 
                     <div className="mainImage">
-                    <img src={this.props.mainImg} alt="one" id="maineImg"></img>
+                        <img src={this.props.mainImg} alt="one" id="maineImg"></img>
                     </div>
 
                     <div className="iconsHeart">

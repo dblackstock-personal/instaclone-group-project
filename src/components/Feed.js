@@ -23,6 +23,31 @@ import img20 from '../images/20.jpg';
 import img21 from '../images/21.jpg';
 import img22 from '../images/22.jpg';
 import img23 from '../images/23.jpg';
+import self1 from '../images/self1.jpg';
+import self2 from '../images/self2.jpg';
+import self3 from '../images/self3.jpg';
+import self4 from '../images/self4.jpg';
+import self5 from '../images/self5.jpg';
+import self6 from '../images/self6.jpeg';
+import self7 from '../images/self23.jpg';
+import self8 from '../images/self8.PNG';
+import self9 from '../images/self9.jpg';
+import self10 from '../images/self10.png';
+import self11 from '../images/self11.PNG';
+import self12 from '../images/self12.jpg';
+import self13 from '../images/self13.jpg';
+import self14 from '../images/self14.jpg';
+import self15 from '../images/self15.jpg';
+import self16 from '../images/self16.png';
+import self17 from '../images/self17.jpg';
+import self18 from '../images/self18.jpg';
+import self19 from '../images/self19.jpg';
+import self20 from '../images/self20.jpg';
+import self21 from '../images/self21.jpg';
+import self22 from '../images/self22.png';
+import self23 from '../images/self23.jpg';
+
+
 import { isTSAnyKeyword } from '@babel/types';
 
 
@@ -70,29 +95,29 @@ import { isTSAnyKeyword } from '@babel/types';
        let { allUsers } = this.state;
        return(
           <div className="wrapper" id="wrapper">
-           <Tile uName={this.state.uName[0]}mainImg={this.state.mainImg[0]} imgTitle={this.state.imgTitle[0]} imgDesc={this.state.imgDesc[0]} comms={this.state.comms[0]}/>
-           <Tile uName={this.state.uName[1]} mainImg={this.state.mainImg[1]} imgTitle={this.state.imgTitle[1]} imgDesc={this.state.imgDesc[1]} comms={this.state.comms[1]}/>
-           <Tile uName={this.state.uName[2]}mainImg={this.state.mainImg[2]} imgTitle={this.state.imgTitle[2]} imgDesc={this.state.imgDesc[2]} comms={this.state.comms[2]}/>
-           <Tile uName={this.state.uName[3]} mainImg={this.state.mainImg[3]} imgTitle={this.state.imgTitle[3]} imgDesc={this.state.imgDesc[3]} comms={this.state.comms[3]}/>
-           <Tile uName={this.state.uName[4]}mainImg={this.state.mainImg[4]} imgTitle={this.state.imgTitle[4]} imgDesc={this.state.imgDesc[4]} comms={this.state.comms[4]}/>
-           <Tile uName={this.state.uName[5]} mainImg={this.state.mainImg[5]} imgTitle={this.state.imgTitle[5]} imgDesc={this.state.imgDesc[5]} comms={this.state.comms[5]}/>
-           <Tile uName={this.state.uName[6]}mainImg={this.state.mainImg[6]} imgTitle={this.state.imgTitle[6]} imgDesc={this.state.imgDesc[6]} comms={this.state.comms[6]}/>
-           <Tile uName={this.state.uName[7]} mainImg={this.state.mainImg[7]} imgTitle={this.state.imgTitle[7]} imgDesc={this.state.imgDesc[7]} comms={this.state.comms[7]}/>
-           <Tile uName={this.state.uName[8]}mainImg={this.state.mainImg[8]} imgTitle={this.state.imgTitle[8]} imgDesc={this.state.imgDesc[8]} comms={this.state.comms[8]}/>
-           <Tile uName={this.state.uName[9]} mainImg={this.state.mainImg[9]} imgTitle={this.state.imgTitle[9]} imgDesc={this.state.imgDesc[9]} comms={this.state.comms[9]}/>
-           <Tile uName={this.state.uName[10]}mainImg={this.state.mainImg[10]} imgTitle={this.state.imgTitle[10]} imgDesc={this.state.imgDesc[10]} comms={this.state.comms[10]}/>
-           <Tile uName={this.state.uName[11]} mainImg={this.state.mainImg[11]} imgTitle={this.state.imgTitle[11]} imgDesc={this.state.imgDesc[11]} comms={this.state.comms[11]}/>
-           <Tile uName={this.state.uName[12]}mainImg={this.state.mainImg[12]} imgTitle={this.state.imgTitle[12]} imgDesc={this.state.imgDesc[12]} comms={this.state.comms[12]}/>
-           <Tile uName={this.state.uName[13]} mainImg={this.state.mainImg[13]} imgTitle={this.state.imgTitle[13]} imgDesc={this.state.imgDesc[13]} comms={this.state.comms[13]}/>
-           <Tile uName={this.state.uName[14]}mainImg={this.state.mainImg[14]} imgTitle={this.state.imgTitle[14]} imgDesc={this.state.imgDesc[14]} comms={this.state.comms[14]}/>
-           <Tile uName={this.state.uName[15]} mainImg={this.state.mainImg[15]} imgTitle={this.state.imgTitle[15]} imgDesc={this.state.imgDesc[15]} comms={this.state.comms[15]}/>
-           <Tile uName={this.state.uName[16]}mainImg={this.state.mainImg[16]} imgTitle={this.state.imgTitle[16]} imgDesc={this.state.imgDesc[16]} comms={this.state.comms[16]}/>
-           <Tile uName={this.state.uName[17]} mainImg={this.state.mainImg[17]} imgTitle={this.state.imgTitle[17]} imgDesc={this.state.imgDesc[17]} comms={this.state.comms[17]}/>
-           <Tile uName={this.state.uName[18]}mainImg={this.state.mainImg[18]} imgTitle={this.state.imgTitle[18]} imgDesc={this.state.imgDesc[18]} comms={this.state.comms[18]}/>
-           <Tile uName={this.state.uName[19]} mainImg={this.state.mainImg[19]} imgTitle={this.state.imgTitle[19]} imgDesc={this.state.imgDesc[19]} comms={this.state.comms[19]}/>
-           <Tile uName={this.state.uName[20]} mainImg={this.state.mainImg[20]} imgTitle={this.state.imgTitle[20]} imgDesc={this.state.imgDesc[20]} comms={this.state.comms[20]}/>
-           <Tile uName={this.state.uName[21]}mainImg={this.state.mainImg[21]} imgTitle={this.state.imgTitle[21]} imgDesc={this.state.imgDesc[21]} comms={this.state.comms[21]}/>
-           <Tile uName={this.state.uName[22]} mainImg={this.state.mainImg[22]} imgTitle={this.state.imgTitle[22]} imgDesc={this.state.imgDesc[22]} comms={this.state.comms[22]}/>
+           <Tile  profileImg={self1} uName={this.state.uName[0]}mainImg={this.state.mainImg[0]} imgTitle={this.state.imgTitle[0]} imgDesc={this.state.imgDesc[0]} comms={this.state.comms[0]}/>
+           <Tile  profileImg={self2} uName={this.state.uName[1]} mainImg={this.state.mainImg[1]} imgTitle={this.state.imgTitle[1]} imgDesc={this.state.imgDesc[1]} comms={this.state.comms[1]}/>
+           <Tile  profileImg={self3} uName={this.state.uName[2]}mainImg={this.state.mainImg[2]} imgTitle={this.state.imgTitle[2]} imgDesc={this.state.imgDesc[2]} comms={this.state.comms[2]}/>
+           <Tile  profileImg={self4} uName={this.state.uName[3]} mainImg={this.state.mainImg[3]} imgTitle={this.state.imgTitle[3]} imgDesc={this.state.imgDesc[3]} comms={this.state.comms[3]}/>
+           <Tile  profileImg={self5} uName={this.state.uName[4]}mainImg={this.state.mainImg[4]} imgTitle={this.state.imgTitle[4]} imgDesc={this.state.imgDesc[4]} comms={this.state.comms[4]}/>
+           <Tile  profileImg={self6} uName={this.state.uName[5]} mainImg={this.state.mainImg[5]} imgTitle={this.state.imgTitle[5]} imgDesc={this.state.imgDesc[5]} comms={this.state.comms[5]}/>
+           <Tile  profileImg={self7} uName={this.state.uName[6]}mainImg={this.state.mainImg[6]} imgTitle={this.state.imgTitle[6]} imgDesc={this.state.imgDesc[6]} comms={this.state.comms[6]}/>
+           <Tile  profileImg={self8} uName={this.state.uName[7]} mainImg={this.state.mainImg[7]} imgTitle={this.state.imgTitle[7]} imgDesc={this.state.imgDesc[7]} comms={this.state.comms[7]}/>
+           <Tile  profileImg={self9} uName={this.state.uName[8]}mainImg={this.state.mainImg[8]} imgTitle={this.state.imgTitle[8]} imgDesc={this.state.imgDesc[8]} comms={this.state.comms[8]}/>
+           <Tile  profileImg={self10} uName={this.state.uName[9]} mainImg={this.state.mainImg[9]} imgTitle={this.state.imgTitle[9]} imgDesc={this.state.imgDesc[9]} comms={this.state.comms[9]}/>
+           <Tile  profileImg={self11} uName={this.state.uName[10]}mainImg={this.state.mainImg[10]} imgTitle={this.state.imgTitle[10]} imgDesc={this.state.imgDesc[10]} comms={this.state.comms[10]}/>
+           <Tile  profileImg={self12} uName={this.state.uName[11]} mainImg={this.state.mainImg[11]} imgTitle={this.state.imgTitle[11]} imgDesc={this.state.imgDesc[11]} comms={this.state.comms[11]}/>
+           <Tile  profileImg={self13} uName={this.state.uName[12]}mainImg={this.state.mainImg[12]} imgTitle={this.state.imgTitle[12]} imgDesc={this.state.imgDesc[12]} comms={this.state.comms[12]}/>
+           <Tile  profileImg={self14} uName={this.state.uName[13]} mainImg={this.state.mainImg[13]} imgTitle={this.state.imgTitle[13]} imgDesc={this.state.imgDesc[13]} comms={this.state.comms[13]}/>
+           <Tile  profileImg={self15} uName={this.state.uName[14]}mainImg={this.state.mainImg[14]} imgTitle={this.state.imgTitle[14]} imgDesc={this.state.imgDesc[14]} comms={this.state.comms[14]}/>
+           <Tile  profileImg={self16} uName={this.state.uName[15]} mainImg={this.state.mainImg[15]} imgTitle={this.state.imgTitle[15]} imgDesc={this.state.imgDesc[15]} comms={this.state.comms[15]}/>
+           <Tile  profileImg={self17} uName={this.state.uName[16]}mainImg={this.state.mainImg[16]} imgTitle={this.state.imgTitle[16]} imgDesc={this.state.imgDesc[16]} comms={this.state.comms[16]}/>
+           <Tile  profileImg={self18} uName={this.state.uName[17]} mainImg={this.state.mainImg[17]} imgTitle={this.state.imgTitle[17]} imgDesc={this.state.imgDesc[17]} comms={this.state.comms[17]}/>
+           <Tile  profileImg={self19} uName={this.state.uName[18]}mainImg={this.state.mainImg[18]} imgTitle={this.state.imgTitle[18]} imgDesc={this.state.imgDesc[18]} comms={this.state.comms[18]}/>
+           <Tile  profileImg={self20} uName={this.state.uName[19]} mainImg={this.state.mainImg[19]} imgTitle={this.state.imgTitle[19]} imgDesc={this.state.imgDesc[19]} comms={this.state.comms[19]}/>
+           <Tile  profileImg={self21} uName={this.state.uName[20]} mainImg={this.state.mainImg[20]} imgTitle={this.state.imgTitle[20]} imgDesc={this.state.imgDesc[20]} comms={this.state.comms[20]}/>
+           <Tile  profileImg={self22} uName={this.state.uName[21]}mainImg={this.state.mainImg[21]} imgTitle={this.state.imgTitle[21]} imgDesc={this.state.imgDesc[21]} comms={this.state.comms[21]}/>
+           <Tile u profileImg={self23} Name={this.state.uName[22]} mainImg={this.state.mainImg[22]} imgTitle={this.state.imgTitle[22]} imgDesc={this.state.imgDesc[22]} comms={this.state.comms[22]}/>
         </div>
        )
      }

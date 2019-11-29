@@ -21,7 +21,7 @@ class App extends Component {  //these are for the desktop website
           <Feed />
           <Stories id="stories-element" />
         </div>
-        <BottomNav />
+        <BottomNav/>
       </div>
     )
   }

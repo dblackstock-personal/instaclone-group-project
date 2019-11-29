@@ -18,11 +18,10 @@
 
 .feedTile{
   background-color: white;
-  width:500px;
+  width: 100%;
 }
 
 #stories-element{
-  background-color: chartreuse;
   width:20%;
 }
 
@@ -30,4 +29,10 @@
   display: flex;
   text-align: center;
   margin: auto;
+} 
+
+@media screen and (max-width: 768px){
+    #wrapper {
+      width:100%;
+    }
 }
