@@ -8,6 +8,7 @@ import '../components/BottomNav.css'
 
 export default class BottomNav extends Component {
 
+    // True or false state that the ternary evaluates when a button is clicked. 
     state = {
         homeButtonClicked: false,
         resetButtonClicked: false, 
@@ -16,6 +17,7 @@ export default class BottomNav extends Component {
         addButtonClicked: false,
     }; 
 
+    // Reset buttons: sets all of the icons back to the default black colour upon selecting a new page.
     resetBtns = () => {
         this.setState({
             homeButtonClicked: false,
@@ -25,7 +27,8 @@ export default class BottomNav extends Component {
             addButtonClicked: false,
         })
     } 
-
+    // Set active function - this changes the colour of the icon at the bottom of the screen. 
+    // This function could also set the page to transfer the user to their profile, home etc
     setActive = (e) => {
         this.resetBtns()
         if(e.target.id == "homeLogo-btm-nav" ){
