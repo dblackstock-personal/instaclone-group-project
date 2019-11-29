@@ -19,7 +19,7 @@ class App extends Component {  //these are for the desktop website
         <TopNav logoClick={this.handleClick} />
         <div id="main-page">
           <Feed />
-          <Stories />
+          <Stories id="stories-element" />
         </div>
         <BottomNav />
       </div>

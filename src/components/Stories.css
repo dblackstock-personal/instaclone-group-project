@@ -5,6 +5,8 @@
     width: 290px;
     height:100%;
     padding-left:30px;
+    position:sticky;
+    top:80;
     /* flex: 1; */
 }
 
@@ -39,14 +41,14 @@
 
 #profile-user-webname{
     box-sizing: border-box;
-    width: 230px;
+    width: 200px;
     height:25px;
     box-sizing:border-box;
     font-weight: bold;
 }
 
 #profile-user-offlinename{
-    width: 230px;
+    width: 200px;
     color:grey;
     height:25px;
     box-sizing: border-box;
@@ -56,12 +58,16 @@
 .title{
     display:flex;
     justify-content: space-between;
+    position:sticky;
+    top:0;
+    background-color: white;
 }
 
 .title-heading{
     color:grey;
-    width: 160px;
+    width: 180px;
     padding:10px;
+    font-size: 14px;
     font-weight: bold;
 }
 
@@ -69,16 +75,19 @@
     width:80px;
     text-align: right;
     padding:10px;
-    font-size:small;
+    font-size:12px;
     font-weight: bold;
     cursor: pointer;
 }
 
 /* this stuff is specific for stories */
 
+#stories{
+    overflow:auto;
+}
+
 #story-users{
     display:flex;
-    overflow:auto;
     flex-wrap: wrap;
 }
 
@@ -120,8 +129,8 @@
 }
 
 /* this is for mobile views */
-/* @media screen and (max-width: 1024px){
-    #stories, #suggestions{
+@media screen and (max-width: 1024px){
+    #stories-element{
     display:none;
     }
-} */
+}

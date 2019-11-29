@@ -69,7 +69,6 @@ import { isTSAnyKeyword } from '@babel/types';
      render() {
        let { allUsers } = this.state;
        return(
-       <div>
           <div className="wrapper" id="wrapper">
            <Tile uName={this.state.uName[0]}mainImg={this.state.mainImg[0]} imgTitle={this.state.imgTitle[0]} imgDesc={this.state.imgDesc[0]} comms={this.state.comms[0]}/>
            <Tile uName={this.state.uName[1]} mainImg={this.state.mainImg[1]} imgTitle={this.state.imgTitle[1]} imgDesc={this.state.imgDesc[1]} comms={this.state.comms[1]}/>
@@ -95,9 +94,6 @@ import { isTSAnyKeyword } from '@babel/types';
            <Tile uName={this.state.uName[21]}mainImg={this.state.mainImg[21]} imgTitle={this.state.imgTitle[21]} imgDesc={this.state.imgDesc[21]} comms={this.state.comms[21]}/>
            <Tile uName={this.state.uName[22]} mainImg={this.state.mainImg[22]} imgTitle={this.state.imgTitle[22]} imgDesc={this.state.imgDesc[22]} comms={this.state.comms[22]}/>
         </div>
-         <div>allUsers = {
-           allUsers.length }</div>
-       </div>
        )
      }
    }
