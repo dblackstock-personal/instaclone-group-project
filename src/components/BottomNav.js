@@ -4,7 +4,7 @@ import searchLogo from '../images/searchLogo.svg';
 import addLogo from '../images/addLogo.svg';
 import likeLogo from '../images/likeLogo.svg';
 import userLogo from '../images/userLogo.svg';
-import '../components/bottomNav.css'
+import '../components/BottomNav.css'
 
 export default class BottomNav extends Component {
 

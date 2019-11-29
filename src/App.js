@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import Feed from './components/Feed';
 import TopNav from './components/TopNav';
 import BottomNav from './components/BottomNav';
@@ -12,15 +12,16 @@ class App extends Component {  //these are for the desktop website
     } else {
       e.target.style.filter = 'none';
     }
-  }  render() {
+  }
+  render() {
     return (
       <div>
-        <TopNav logoClick={this.handleClick}/>
+        <TopNav logoClick={this.handleClick} />
         <div id="main-page">
-            <Feed />
-            <Stories/>
-        </div> 
-            <BottomNav />
+          <Feed />
+          <Stories />
+        </div>
+        <BottomNav />
       </div>
     )
   }
