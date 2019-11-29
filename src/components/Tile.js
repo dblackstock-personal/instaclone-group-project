@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import likeLogo from '../images/likeLogo.svg';
 import planeLogo from '../images/dm-icon.svg';
 import speechIcon from '../images/speechIcon.svg';
+import '../components/Tile.css';
 
 
 class Tile extends Component {

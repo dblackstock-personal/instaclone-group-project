@@ -1,0 +1,42 @@
+.feedTile{
+    margin: 30px 0;
+    border:solid lightgray 0.5px;
+}
+
+.userName{
+    padding:15px;
+}
+
+#heart {
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    padding: 3px;
+  }
+  
+  #speechIcon {
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    padding: 3px;
+  }
+  
+  #planeLogo {
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    padding: 3px;
+    
+  }
+  
+  #likeComments {
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    padding: 3px;
+  }
+  
+  #maineImg {
+   height: 500px;
+   width: 500px;
+  }

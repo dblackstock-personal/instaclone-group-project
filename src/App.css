@@ -9,40 +9,21 @@
   flex-wrap: wrap;
   width: 100%;
   justify-content: center;
+  background-color: rgb(250, 250, 250);
 }
 
-#heart {
-  display: inline-block;
-  height: 24px;
-  width: 24px;
-  padding: 3px;
+#wrapper{
+  width:50%;
 }
 
-#speechIcon {
-  display: inline-block;
-  height: 24px;
-  width: 24px;
-  padding: 3px;
+.feedTile{
+  background-color: white;
+  width:500px;
 }
 
-#planeLogo {
-  display: inline-block;
-  height: 24px;
-  width: 24px;
-  padding: 3px;
-  
-}
-
-#likeComments {
-  display: inline-block;
-  height: 24px;
-  width: 24px;
-  padding: 3px;
-}
-
-#maineImg {
- height: 500px;
- width: 500px;
+#stories-element{
+  background-color: chartreuse;
+  width:20%;
 }
 
 .App {

@@ -52,6 +52,14 @@ const Stories = () => {
                             <div class="user-story-activity">19 hours ago</div>
                         </div>
                     </div>
+
+                    <div class="story-user">
+                        <img class="user-story-profile-pic" src={userProfile}></img>
+                        <div class="user-story-details">
+                            <div class="user-story-webname">pizzafiend</div>
+                            <div class="user-story-activity">2 hours ago</div>
+                        </div>
+                    </div>
                     </div>
                 </div>
 
