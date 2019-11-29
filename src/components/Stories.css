@@ -4,17 +4,25 @@
     align-items: center;
     width: 290px;
     height:100%;
+    padding-left:30px;
     /* flex: 1; */
 }
 
 #user, #stories, #suggestions{
-    background-color: burlywood;
     width: 100%;
     height:200px;
     margin-bottom:15px;
 }
 
+#stories, #suggestions{
+    background-color: white;
+    box-sizing: border-box;
+    border:solid 1px grey;
+    border-radius: 2%;
+}
+
 #user{
+    background-color: none;
     height: 50px;
     display:flex;
     flex-wrap:flex;
@@ -25,16 +33,90 @@
     border-radius: 50%;
 }
 
+#user-details{
+    padding-left:10px;
+}
+
 #profile-user-webname{
     box-sizing: border-box;
-    width: 240px;
+    width: 230px;
     height:25px;
+    box-sizing:border-box;
+    font-weight: bold;
 }
 
 #profile-user-offlinename{
-    width: 240px;
+    width: 230px;
     color:grey;
     height:25px;
+    box-sizing: border-box;
+    font-size:small;
+}
+
+.title{
+    display:flex;
+    justify-content: space-between;
+}
+
+.title-heading{
+    color:grey;
+    width: 160px;
+    padding:10px;
+    font-weight: bold;
+}
+
+.title-expand{
+    width:80px;
+    text-align: right;
+    padding:10px;
+    font-size:small;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* this stuff is specific for stories */
+
+#story-users{
+    display:flex;
+    overflow:auto;
+    flex-wrap: wrap;
+}
+
+#story-users-for-scrolling {
+    min-height: -webkit-min-content;
+    display: flex;
+    flex-direction: column;
+  }
+
+.story-user{
+    width: 100%;
+    display:flex;
+    flex-wrap:flex;
+    align-content: center;
+    /* min-height:100px; */
+}
+
+.user-story-profile-pic{
+    width: 35px;
+    border-radius: 50%;
+    padding:3px;
+    border-radius: 50%/50%;
+    border: solid 3px red;
+    margin: 5px;
+}
+
+.user-story-details{
+
+}
+
+.user-story-webname{
+    padding-top:10px;
+    font-weight:bold;
+}
+
+.user-story-activity{
+    color:grey;
+    font-size:small;
 }
 
 /* this is for mobile views */
