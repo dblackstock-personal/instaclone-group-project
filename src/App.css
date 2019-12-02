@@ -1,5 +1,8 @@
-.App {
-  text-align: center;
+*{
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+
 }
 
 .App-logo {
@@ -19,4 +22,44 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+#heart {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  padding: 3px;
+}
+
+#speechIcon {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  padding: 3px;
+}
+
+#planeLogo {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  padding: 3px;
+  
+}
+
+#likeComments {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  padding: 3px;
+}
+
+#maineImg {
+ height: 500px;
+ width: 500px;
+}
+
+.App {
+  display: flex;
+  text-align: center;
+  margin: auto;
 }
